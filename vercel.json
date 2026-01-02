@@ -1,12 +1,6 @@
 {
   "version": 2,
   "name": "joy-owoo-auta-portfolio",
-  "builds": [
-    {
-      "src": "*.html",
-      "use": "@vercel/static"
-    }
-  ],
   "routes": [
     {
       "handle": "filesystem"
