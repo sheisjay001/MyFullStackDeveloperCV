@@ -38,3 +38,17 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 });
+document.addEventListener('DOMContentLoaded', () => {
+    const targets = document.querySelectorAll('.section .container, .project-card, .timeline-item, .section-title');
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('in-view');
+            }
+        });
+    }, { threshold: 0.2 });
+    targets.forEach(t => {
+        t.classList.add('reveal');
+        observer.observe(t);
+    });
+});
