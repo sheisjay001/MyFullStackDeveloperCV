@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 document.addEventListener('DOMContentLoaded', () => {
-    const targets = document.querySelectorAll('.section .container, .project-card, .timeline-item, .section-title');
+    const targets = document.querySelectorAll('.project-card, .timeline-item, .section-title');
     const observer = new IntersectionObserver((entries) => {
         entries.forEach(entry => {
             if (entry.isIntersecting) {

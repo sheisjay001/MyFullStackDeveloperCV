@@ -574,8 +574,6 @@ footer p {
 
 .project-card,
 .timeline-item {
-    opacity: 0;
-    transform: translateY(20px);
 }
 
 footer .social-links-footer a {
