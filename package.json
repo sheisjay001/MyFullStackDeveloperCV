@@ -1,0 +1,12 @@
+{
+  "name": "joy-owoo-auta-portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio website for Joy Owoo Auta",
+  "main": "script.js",
+  "scripts": {
+    "dev": "npx -y serve ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
